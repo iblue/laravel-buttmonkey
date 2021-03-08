@@ -1,23 +1,22 @@
 {
-    "name": "spatie/laravel-stubs",
-    "description": "Opinionated Laravel stubs",
+    "name": "iblue/laravel-buttmonkey",
+    "description": "Rails-style scaffolding for Laravel Jetstreams",
     "keywords": [
-        "spatie",
-        "laravel-stubs"
+        "laravel-buttmonkey"
     ],
-    "homepage": "https://github.com/spatie/laravel-stubs",
+    "homepage": "https://github.com/iblue/laravel-buttmonkey",
     "license": "MIT",
     "authors": [
         {
-            "name": "Freek Van der Herten",
-            "email": "freek@spatie.be",
-            "homepage": "https://spatie.be",
+            "name": "Markus Fenske",
+            "email": "iblue@gmx.net",
+            "homepage": "https://exablue.de",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.4|^8.0",
-        "laravel/framework": "^7.2|^8.0"
+        "php": "^8.0",
+        "laravel/framework": "^8.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.0",
@@ -25,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Stubs\\": "src"
+            "Buttmonkey\\Stubs\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Stubs\\Tests\\": "tests"
+            "Buttmonkey\\Stubs\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -44,7 +43,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Stubs\\StubsServiceProvider"
+                "Buttmonkey\\Stubs\\StubsServiceProvider"
             ]
         }
     },

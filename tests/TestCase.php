@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Stubs\Tests;
+namespace Buttmonkey\Stubs\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
-use Spatie\Stubs\StubsServiceProvider;
+use Buttmonkey\Stubs\StubsServiceProvider;
 
 abstract class TestCase extends Orchestra
 {

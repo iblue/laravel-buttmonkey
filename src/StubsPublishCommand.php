@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Stubs;
+namespace Buttmonkey\Stubs;
 
 use Illuminate\Console\Command;
 use Illuminate\Console\ConfirmableTrait;
@@ -10,9 +10,9 @@ use Symfony\Component\Finder\SplFileInfo;
 
 class StubsPublishCommand extends Command
 {
-    protected $signature = 'spatie-stub:publish {--force : Overwrite any existing files}';
+    protected $signature = 'buttmonkey-stub:publish {--force : Overwrite any existing files}';
 
-    protected $description = 'Publish all opinionated stubs that are available for customization';
+    protected $description = 'Publish buttmonkey stubs that are available for customization';
 
     use ConfirmableTrait;
 

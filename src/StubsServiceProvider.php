@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Stubs;
+namespace Buttmonkey\Stubs;
 
 use Illuminate\Support\ServiceProvider;
 
