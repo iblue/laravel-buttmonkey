@@ -15,7 +15,7 @@ If you want to keep your stubs up to date with every update, add this composer h
 ```json
 "scripts": {
     "post-update-cmd": [
-        "@php artisan buttmonkey-stub:publish"
+        "@php artisan buttmonkey:install"
     ]
 }
 -```
@@ -26,7 +26,7 @@ If you want to keep your stubs up to date with every update, add this composer h
 You can publish the stubs using this command:
 
 ```bash
-php artisan buttmonkey-stub:publish
+php artisan buttmonkey:install
 ```
 
 ## Testing

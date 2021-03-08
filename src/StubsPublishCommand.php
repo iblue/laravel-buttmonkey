@@ -10,7 +10,7 @@ use Symfony\Component\Finder\SplFileInfo;
 
 class StubsPublishCommand extends Command
 {
-    protected $signature = 'buttmonkey-stub:publish {--force : Overwrite any existing files}';
+    protected $signature = 'buttmonkey:install {--force : Overwrite any existing files}';
 
     protected $description = 'Publish buttmonkey stubs that are available for customization';
 

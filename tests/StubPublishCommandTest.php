@@ -13,7 +13,7 @@ class StubPublishCommandTest extends TestCase
 
         File::deleteDirectory($targetStubsPath);
 
-        $this->artisan('buttmonkey-stub:publish')->assertExitCode(0);
+        $this->artisan('buttmonkey:install')->assertExitCode(0);
 
         $stubPath = __DIR__ . '/../stubs/migration.stub';
 
